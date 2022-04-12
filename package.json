@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "main": "main.js",
+  "bin": {
+    "forge-app": "bin/forge-app.js"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,6 +13,7 @@
     "serve": "vite build && electron ."
   },
   "dependencies": {
+    "shelljs": "^0.8.5",
     "vue": "^3.2.25"
   },
   "devDependencies": {
