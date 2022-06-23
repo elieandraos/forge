@@ -10,7 +10,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "serve": "vite build && electron ."
+    "native": "vite build && electron ."
   },
   "dependencies": {
     "shelljs": "^0.8.5",

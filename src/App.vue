@@ -1,20 +1,15 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <HelloWorld msg="Vue 3 + Vite + Tailwind" />
+    <div class="h-full bg-gradient-to-br from-sky-300 to-blue-900">
+        <HelloWorld msg="Vite - Vue3 - Tailwind - Electron" />
+    </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<script setup>
+    import HelloWorld from './components/HelloWorld.vue'
+</script>
+
+<!--
+from-sky-300 to-blue-900
+from-indigo-300 to-purple-800
+from-pink-300 to-rose-800
+-->
